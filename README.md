@@ -1,9 +1,9 @@
 AutoTick
 ========
 
-![Screenshot](http://davidstancu.me/snapr/wEZRNY.png)
+Screenshot
 
-[See it in action in this fancy (not really) YouTube video!](http://www.youtube.com/watch?v=k6EspG7LuZY)
+See more in video
 
 ## What is it?
 
@@ -15,8 +15,8 @@ AutoTick is a bot that scans your friend's QR codes automatically without you ha
 
 We will have two people in this scenario: 
 
-* Friend 
-* You
+A: Friend 
+B: You
 
 1. Update location of both you and friend to lat/long on map screen
 2. Fetch friend data from RESTful APIs, use their token to retrieve QR key. `getData()`
@@ -33,7 +33,7 @@ Below, is a PhewTick API URL:
 
 `https://v5api.phewtick.com/users/scan`
 
-*`https://v5api.phewtick.com/` is the domain
+* `https://v5api.phewtick.com/` is the domain
 * `meets/scan` is the location of the API that recieves scan requests.
 
 ### Known PhewTick services:
@@ -62,9 +62,9 @@ There is nowhere within the PhewTick application where you may retrieve your tok
 3. Refresh your QR code and you'll see packets appear that are headed towards the PhewTick API URLs.
 4. Open up the detailed view of one of these packets and copy the &token= argument. Yay, token!
 
-#### Not using `mitmproxy`
+#### Not using mitmproxy
 
-* Don't know. Figure out how to use `mitmproxy`, it's easier.
+* Don't know. Figure out how to use mitmproxy, it's easier.
 
 
 ## This is sweet! Can I use it?
