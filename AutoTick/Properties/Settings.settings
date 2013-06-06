@@ -1,0 +1,54 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="AutoTick.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="phewtick_server" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://v5api.phewtick.com/</Value>
+    </Setting>
+    <Setting Name="refresh_tail" Type="System.String" Scope="User">
+      <Value Profile="(Default)">meets/scan</Value>
+    </Setting>
+    <Setting Name="scan_tail" Type="System.String" Scope="User">
+      <Value Profile="(Default)">meets/meet</Value>
+    </Setting>
+    <Setting Name="location_tail" Type="System.String" Scope="User">
+      <Value Profile="(Default)">users/position</Value>
+    </Setting>
+    <Setting Name="longitude" Type="System.String" Scope="User">
+      <Value Profile="(Default)">-73.976439</Value>
+    </Setting>
+    <Setting Name="latitude" Type="System.String" Scope="User">
+      <Value Profile="(Default)">40.688871</Value>
+    </Setting>
+    <Setting Name="timezone_id" Type="System.String" Scope="User">
+      <Value Profile="(Default)">'America/New_York'</Value>
+    </Setting>
+    <Setting Name="gmt_offset" Type="System.String" Scope="User">
+      <Value Profile="(Default)">-0300</Value>
+    </Setting>
+    <Setting Name="user_agent" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Phewtick/3.2.0 (iPhone; iOS 5.1.1; Scale/2.00)</Value>
+    </Setting>
+    <Setting Name="header_accept" Type="System.String" Scope="User">
+      <Value Profile="(Default)">application/json</Value>
+    </Setting>
+    <Setting Name="header_alang" Type="System.String" Scope="User">
+      <Value Profile="(Default)">en, zh-Hant, ar, zh-Hans, fr, de, ja, nl, it, es, pt-PT, da, fi, nb, sv, ko, ru, pl, pt, tr, uk, hr, cs, el, he, ro, sk, th, id, ms, en-GB, ca, hu, vi, en-us;q=0.8</Value>
+    </Setting>
+    <Setting Name="header_keepalive" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="header_aencoding" Type="System.String" Scope="User">
+      <Value Profile="(Default)">gzip, deflate</Value>
+    </Setting>
+    <Setting Name="header_ctype" Type="System.String" Scope="User">
+      <Value Profile="(Default)">application/x-www-form-urlencoded</Value>
+    </Setting>
+    <Setting Name="post_bg" Type="System.String" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="sleep_time" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">5000</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

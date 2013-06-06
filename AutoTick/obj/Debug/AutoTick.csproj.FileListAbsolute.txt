@@ -1,0 +1,17 @@
+C:\Users\David\Desktop\AutoTick\AutoTick\AutoTick\bin\Debug\AutoTick.exe.config
+C:\Users\David\Desktop\AutoTick\AutoTick\AutoTick\bin\Debug\AutoTick.exe
+C:\Users\David\Desktop\AutoTick\AutoTick\AutoTick\bin\Debug\AutoTick.pdb
+C:\Users\David\Desktop\AutoTick\AutoTick\AutoTick\obj\Debug\AutoTick.csprojResolveAssemblyReference.cache
+C:\Users\David\Desktop\AutoTick\AutoTick\AutoTick\obj\Debug\AutoTick.MainWindow.resources
+C:\Users\David\Desktop\AutoTick\AutoTick\AutoTick\obj\Debug\AutoTick.Properties.Resources.resources
+C:\Users\David\Desktop\AutoTick\AutoTick\AutoTick\obj\Debug\AutoTick.csproj.GenerateResource.Cache
+C:\Users\David\Desktop\AutoTick\AutoTick\AutoTick\obj\Debug\AutoTick.exe
+C:\Users\David\Desktop\AutoTick\AutoTick\AutoTick\obj\Debug\AutoTick.pdb
+C:\Users\David\Desktop\AutoTick\AutoTick\AutoTick\bin\Debug\Newtonsoft.Json.dll
+C:\Users\David\Desktop\AutoTick\AutoTick\AutoTick\bin\Debug\Microsoft.Maps.MapControl.WPF.dll
+C:\Users\David\Desktop\AutoTick\AutoTick\AutoTick\bin\Debug\Microsoft.Maps.MapControl.WPF.xml
+C:\Users\David\Desktop\AutoTick\AutoTick\AutoTick\obj\Debug\LocMap.baml
+C:\Users\David\Desktop\AutoTick\AutoTick\AutoTick\obj\Debug\LocMap.g.cs
+C:\Users\David\Desktop\AutoTick\AutoTick\AutoTick\obj\Debug\AutoTick_MarkupCompile.cache
+C:\Users\David\Desktop\AutoTick\AutoTick\AutoTick\obj\Debug\AutoTick.g.resources
+C:\Users\David\Desktop\AutoTick\AutoTick\AutoTick\obj\Debug\AutoTick_Content.g.cs
