@@ -48,8 +48,8 @@ Each PhewTick user is given a secret key. Once you register for PhewTick through
 
 ### Odd occurences
 
-Tokens may or may not deprecate when a new device is 'provisioned'. I do not know why this happens selectively.
-Tokens may be changed for you at random. I do not know why this happens either.
+* Tokens may or may not deprecate when a new device is 'provisioned'. I do not know why this happens selectively.
+* Tokens may be changed for you at random. I do not know why this happens either.
 
 ### How do I find my token?
 
