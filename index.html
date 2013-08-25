@@ -1,78 +1,139 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
+
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Autotick by mach-kernel</title>
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="javascripts/respond.js"></script>
-    <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <!--[if lt IE 8]>
-    <link rel="stylesheet" href="stylesheets/ie.css">
-    <![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Autotick : An automatic PhewTick meetup scanner built in C# using hidden RESTful APIs. " />
 
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Autotick</title>
   </head>
+
   <body>
-      <div id="header">
-        <nav>
-          <li class="fork"><a href="https://github.com/mach-kernel/AutoTick">View On GitHub</a></li>
-          <li class="downloads"><a href="https://github.com/mach-kernel/AutoTick/zipball/master">ZIP</a></li>
-          <li class="downloads"><a href="https://github.com/mach-kernel/AutoTick/tarball/master">TAR</a></li>
-          <li class="title">DOWNLOADS</li>
-        </nav>
-      </div><!-- end header -->
 
-    <div class="wrapper">
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/mach-kernel/AutoTick">View on GitHub</a>
 
-      <section>
-        <div id="title">
-          <h1>Autotick</h1>
-          <p>An automatic PhewTick meetup scanner built in C# using hidden RESTful APIs. </p>
-          <hr>
-          <span class="credits left">Project maintained by <a href="https://github.com/mach-kernel">mach-kernel</a></span>
-          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
-        </div>
+          <h1 id="project_title">Autotick</h1>
+          <h2 id="project_tagline">An automatic PhewTick meetup scanner built in C# using hidden RESTful APIs. </h2>
 
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
-
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
-
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/mach-kernel/AutoTick/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/mach-kernel/AutoTick/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
     </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a name="autotick" class="anchor" href="#autotick"><span class="octicon octicon-link"></span></a>AutoTick</h1>
+
+<p><img src="http://davidstancu.me/snapr/2WCFQC.png" alt="Screenshot"></p>
+
+<p><a href="http://www.youtube.com/watch?v=k6EspG7LuZY">Watch it in action in this fancy (somewhat (not really)) YouTube video!</a></p>
+
+<h2>
+<a name="what-is-it" class="anchor" href="#what-is-it"><span class="octicon octicon-link"></span></a>What is it?</h2>
+
+<p>PhewTick is an application which rewards users with points for scanning the QR code of another user when meeting them in real life. These points - after having been accumulated - can be exchanged for money that is sent to a PayPal account. On a purely speculative note, I believe that they have incentive to report user location and city data to advertising agencies to provide users with 'relevant' ads; simply passing a small dividend over to the end user.</p>
+
+<p>AutoTick is a bot that scans your friend's QR codes automatically without you having to actually meet them. AutoTick does NOT circumvent any time limits or otherwise exploit the systems to generate you insane amounts of cash. Whatever AutoTick earns can be done by manually scanning your friends' codes, however removing the physical necessity of doing so.</p>
+
+<h2>
+<a name="how-are-meetups-done" class="anchor" href="#how-are-meetups-done"><span class="octicon octicon-link"></span></a>How are meetups done?</h2>
+
+<p>We will have two people in this scenario: </p>
+
+<ul>
+<li>Friend </li>
+<li>You</li>
+</ul><ol>
+<li>Update location of both you and friend to lat/long on map screen</li>
+<li>Fetch friend data from RESTful APIs, use their token to retrieve QR key. <code>getData()</code>
+</li>
+<li>POST friend's QR key and YOUR token to PhewTick API. <code>doScan()</code>
+</li>
+<li>GET server response (shows points earned) and update statistics</li>
+<li>Sleep for time defined in settings</li>
+</ol><h2>
+<a name="what-are-these-tails-in-your-settings-pane" class="anchor" href="#what-are-these-tails-in-your-settings-pane"><span class="octicon octicon-link"></span></a>What are these 'tails' in your settings pane?</h2>
+
+<p>While PhewTick was still operational, they were changing domains and URL locations around with very high frequency to the point where it was better to include a setting to let the user change the URLs whenever PhewTick would rearrange their stuff.</p>
+
+<p>Below, is a PhewTick API URL:</p>
+
+<p><code>https://v5api.phewtick.com/users/scan</code></p>
+
+<ul>
+<li>
+<code>https://v5api.phewtick.com/</code> is the domain</li>
+<li>
+<code>meets/scan</code> is the location of the API that recieves scan requests.</li>
+</ul><h3>
+<a name="known-phewtick-services" class="anchor" href="#known-phewtick-services"><span class="octicon octicon-link"></span></a>Known PhewTick services:</h3>
+
+<ul>
+<li>
+<code>users/position</code> is used for updating user location. It takes user token, latitude, and longitude as arguments.</li>
+<li>
+<code>meets/scan</code> is used for doing a meetup. It takes the token of the friend scanning the other friend's phone and the other friend's QR key. There are some metrics for position which could be submitted with a scan request, but I do not know what they do</li>
+<li>
+<code>meets/qr</code> is used for generating QR keys if a token is provided.</li>
+</ul><h2>
+<a name="tokens-huh" class="anchor" href="#tokens-huh"><span class="octicon octicon-link"></span></a>Tokens. Huh?</h2>
+
+<p>Each PhewTick user is given a secret key. Once you register for PhewTick through Facebook (I do not remember if this is the procedure exactly, do not quote me on registration method), you are assigned one unique token per device used. These tokens stay with the device, but new tokens are generated if devices change.</p>
+
+<h3>
+<a name="odd-occurences" class="anchor" href="#odd-occurences"><span class="octicon octicon-link"></span></a>Odd occurences</h3>
+
+<ul>
+<li>Tokens may or may not deprecate when a new device is 'provisioned'. I do not know why this happens selectively.</li>
+<li>Tokens may be changed for you at random. I do not know why this happens either.</li>
+</ul><h3>
+<a name="how-do-i-find-my-token" class="anchor" href="#how-do-i-find-my-token"><span class="octicon octicon-link"></span></a>How do I find my token?</h3>
+
+<p>There is nowhere within the PhewTick application where you may retrieve your token. In order to do this, you must sniff the connection of the device with something like <code>mitmproxy</code>.</p>
+
+<h4>
+<a name="using-mitmproxy" class="anchor" href="#using-mitmproxy"><span class="octicon octicon-link"></span></a>Using <code>mitmproxy</code>
+</h4>
+
+<ol>
+<li>Start the mitmproxy daemon by typing <code>mitmproxy</code>.</li>
+<li>Connect your phone/tablet/toaster to the same network as the mitmproxy daemon, and assign the appropriate ports to the device. MAKE SURE THAT YOU IMPORT THE MITMPROXY CERTIFICATES INTO THE DEVICE IN QUESTION OR IT WILL NOT CONNECT.</li>
+<li>Refresh your QR code and you'll see packets appear that are headed towards the PhewTick API URLs.</li>
+<li>Open up the detailed view of one of these packets and copy the &amp;token= argument. Yay, token!</li>
+</ol><h4>
+<a name="not-using-mitmproxy" class="anchor" href="#not-using-mitmproxy"><span class="octicon octicon-link"></span></a>Not using <code>mitmproxy</code>
+</h4>
+
+<ul>
+<li>Don't know. Figure out how to use <code>mitmproxy</code>, it's easier.</li>
+</ul><h2>
+<a name="this-is-sweet-can-i-use-it" class="anchor" href="#this-is-sweet-can-i-use-it"><span class="octicon octicon-link"></span></a>This is sweet! Can I use it?</h2>
+
+<p>Of course! You are allowed to modify and redistribute this code as long as you give original credit. I hope you learn from this and share it. Knowledge is power. Also, no commercial usage, please!</p>
+
+<p>This software is bound by the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License.</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Autotick maintained by <a href="https://github.com/mach-kernel">mach-kernel</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
     
+
   </body>
 </html>
